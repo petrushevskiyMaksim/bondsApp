@@ -21,8 +21,8 @@ export default function Form() {
 			className='p-3 h-full overflow-y-auto'
 			onSubmit={handleSubmit(onSubmit)}
 		>
-			<ul className='flex flex-col gap-y-2.5 mb-5'>
-				<li className='mb-not-last grid w-full max-w-sm items-center gap-2'>
+			<ul className='grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-y-2.5 gap-x-2.5 mb-5'>
+				<li className='mb-not-last grid w-full md:max-w-60 items-center gap-2'>
 					<Label className={'font-bold text-gray-600'} htmlFor='bondName'>
 						Название облигации
 					</Label>
@@ -35,7 +35,7 @@ export default function Form() {
 						placeholder='Например: ОФЗ 26022'
 					/>
 				</li>
-				<li className='mb-not-last grid w-full max-w-sm items-center gap-2'>
+				<li className='mb-not-last grid w-full md:max-w-60 items-center gap-2'>
 					<Label className={'font-bold text-gray-600'} htmlFor='sumBonds'>
 						Колличество облигаций
 					</Label>
@@ -48,7 +48,7 @@ export default function Form() {
 						placeholder='Например: 2'
 					/>
 				</li>
-				<li className='mb-not-last grid w-full max-w-sm items-center gap-2'>
+				<li className='mb-not-last grid w-full md:max-w-60 items-center gap-2'>
 					<Label className={'font-bold text-gray-600'} htmlFor='nominalPrice'>
 						Номинальная цена
 					</Label>
@@ -61,7 +61,7 @@ export default function Form() {
 						placeholder='1000'
 					/>
 				</li>
-				<li className='mb-not-last grid w-full max-w-sm items-center gap-2'>
+				<li className='mb-not-last grid w-full md:max-w-60 items-center gap-2'>
 					<Label className={'font-bold text-gray-600'} htmlFor='buyPrice'>
 						Цена покупки
 					</Label>
@@ -74,7 +74,7 @@ export default function Form() {
 						placeholder='Например: 847'
 					/>
 				</li>
-				<li className='mb-not-last grid w-full max-w-sm items-center gap-2'>
+				<li className='mb-not-last grid w-full md:max-w-60 items-center gap-2'>
 					<Label className={'font-bold text-gray-600'} htmlFor='brokerTax'>
 						Комиссия брокера
 					</Label>
@@ -87,7 +87,7 @@ export default function Form() {
 						placeholder='Например: 0.3'
 					/>
 				</li>
-				<li className='mb-not-last grid w-full max-w-sm items-center gap-2'>
+				<li className='mb-not-last grid w-full md:max-w-60 items-center gap-2'>
 					<Label className={'font-bold text-gray-600'} htmlFor='buyDate'>
 						Дата покупки
 					</Label>
@@ -99,7 +99,7 @@ export default function Form() {
 						type='date'
 					/>
 				</li>
-				<li className='mb-not-last grid w-full max-w-sm items-center gap-2'>
+				<li className='mb-not-last grid w-full md:max-w-60 items-center gap-2'>
 					<Label className={'font-bold text-gray-600'} htmlFor='sellDate'>
 						Дата продажи
 					</Label>
@@ -111,7 +111,7 @@ export default function Form() {
 						type='date'
 					/>
 				</li>
-				<li className='mb-not-last grid w-full max-w-sm items-center gap-2'>
+				<li className='mb-not-last grid w-full md:max-w-60 items-center gap-2'>
 					<Label className={'font-bold text-gray-600'} htmlFor='couponRate'>
 						Купонная ставка
 					</Label>
@@ -124,7 +124,7 @@ export default function Form() {
 						placeholder='Например: 7.1'
 					/>
 				</li>
-				<li className='mb-not-last grid w-full max-w-sm items-center gap-2'>
+				<li className='mb-not-last grid w-full md:max-w-60 items-center gap-2'>
 					<Label className={'font-bold text-gray-600'} htmlFor='couponDate'>
 						Дата ближайшего купона
 					</Label>
@@ -136,7 +136,7 @@ export default function Form() {
 						type='date'
 					/>
 				</li>
-				<li className='mb-not-last grid w-full max-w-sm items-center gap-2'>
+				<li className='mb-not-last grid w-full md:max-w-60 items-center gap-2'>
 					<Label className={'font-bold text-gray-600'} htmlFor='couponPeriod'>
 						Периодичность выплаты купона
 					</Label>
@@ -149,7 +149,7 @@ export default function Form() {
 						placeholder='Например: 182'
 					/>
 				</li>
-				<li className='mb-not-last grid w-full max-w-sm items-center gap-2'>
+				<li className='mb-not-last grid w-full md:max-w-60 items-center gap-2'>
 					<Label className={'font-bold text-gray-600'} htmlFor='NKD'>
 						Накопленный купонный доход
 					</Label>
@@ -164,9 +164,9 @@ export default function Form() {
 				</li>
 			</ul>
 
-			<div className='inline-block hover:rounded-lg p-0.5 hover:outline-3 hover:outline-blue-400 transition-all'>
+			<div className='ssm:inline-block hover:rounded-lg p-0.5 hover:outline-3 hover:outline-blue-400 transition-all'>
 				<Button
-					className='bg-blue-600 hover:bg-blue-700 transition-colors'
+					className=' w-full bg-blue-600 hover:bg-blue-700 transition-colors'
 					type='submit'
 				>
 					Добавить облигацию

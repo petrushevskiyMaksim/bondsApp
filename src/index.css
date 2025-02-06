@@ -2,11 +2,10 @@
 @import 'normalize.css';
 @import 'tailwindcss';
 
-/* @layer base {
-	:root {
-		--radius: 0.5rem;
-	}
-} */
+@theme {
+	--breakpoint-ssm: 500px;
+	--breakpoint-zero: 0px;
+}
 
 html {
 	font-family: 'Roboto', serif;
@@ -32,13 +31,8 @@ html {
 .new-bonds-wrapper {
 	border-radius: 5px;
 	box-shadow: 1px 1px 5px 0px;
-	overflow: hidden;
 }
 
 .title {
 	border-bottom: 1px solid hsla(0, 0%, 74%, 0.491);
 }
-
-/* .mb-not-last:not(:last-child) {
-	margin-bottom: 10px;
-} */

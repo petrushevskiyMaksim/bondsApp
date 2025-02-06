@@ -3,7 +3,7 @@ import { Form } from '@components/Form';
 
 export default function NewBonds() {
 	return (
-		<div className=''>
+		<div className='max-[500px]:mb-5 w-full'>
 			<div className='new-bonds-wrapper'>
 				<Title
 					className={'py-2 px-3 text-lg font-semibold rounded-s-xs title'}

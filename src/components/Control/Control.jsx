@@ -3,7 +3,7 @@ import { Resourses } from '@components/Resourses';
 
 export default function Control() {
 	return (
-		<div className='flex flex-col gap-5 w-full'>
+		<div className='w-full ssm:flex ssm:gap-3 items-start'>
 			<NewBonds />
 			<Resourses />
 		</div>

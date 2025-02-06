@@ -4,13 +4,13 @@ import { useState } from 'react';
 
 export default function Resourses() {
 	const [resourses, setResourses] = useState([
-		{ name: '1', id: 1 },
-		{ name: '2', id: 2 },
-		{ name: '3', id: 3 },
+		{ name: 'Московская биржа - Облигации', id: 1 },
+		{ name: 'RussBonds - Информационное агенство', id: 2 },
+		{ name: 'Финам - Облигации', id: 3 },
 	]);
 
 	return (
-		<div className='new-bonds-wrapper'>
+		<div className='new-bonds-wrapper ssm:w-auto '>
 			<Title
 				className={'py-2 px-3 text-lg font-semibold rounded-s-xs title'}
 				text={'Полезные ресурсы'}

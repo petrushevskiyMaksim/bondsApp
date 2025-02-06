@@ -5,38 +5,14 @@
             "@components/*": [
                 "src/components/*"
             ],
-            "@lib/*": [
-                "src/components/lib/*"
-            ],
             "@/*": [
                 "src/*"
             ],
-            "@Control/*": [
-                "src/components/Control/*"
+            "@Новая папка/*": [
+                "src/Новая папка/*"
             ],
-            "@PortfolioBonds/*": [
-                "src/components/PortfolioBonds/*"
-            ],
-            "@Title/*": [
-                "src/components/Title/*"
-            ],
-            "@Form/*": [
-                "src/components/Form/*"
-            ],
-            "@Input/*": [
-                "src/components/Input/*"
-            ],
-            "@Resourses/*": [
-                "src/components/Resourses/*"
-            ],
-            "@List/*": [
-                "src/components/List/*"
-            ],
-            "@Item/*": [
-                "src/components/Item/*"
-            ],
-            "@NewResourse/*": [
-                "src/components/NewResourse/*"
+            "@favicon/*": [
+                "src/favicon/*"
             ]
         }
     }

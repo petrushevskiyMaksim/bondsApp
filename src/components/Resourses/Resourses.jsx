@@ -10,7 +10,7 @@ export default function Resourses() {
 	]);
 
 	return (
-		<div className='new-bonds-wrapper ssm:w-auto '>
+		<div className='new-bonds-wrapper flex flex-col bg-white'>
 			<Title
 				className={'py-2 px-3 text-lg font-semibold rounded-s-xs title'}
 				text={'Полезные ресурсы'}

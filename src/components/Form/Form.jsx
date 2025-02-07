@@ -21,7 +21,7 @@ export default function Form() {
 			className='p-3 h-full overflow-y-auto'
 			onSubmit={handleSubmit(onSubmit)}
 		>
-			<ul className='grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-y-2.5 gap-x-2.5 mb-5'>
+			<ul className='grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-y-5 gap-x-2.5 mb-5'>
 				<li className='mb-not-last grid w-full md:max-w-60 items-center gap-2'>
 					<Label className={'font-bold text-gray-600'} htmlFor='bondName'>
 						Название облигации

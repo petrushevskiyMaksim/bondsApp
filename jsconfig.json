@@ -13,6 +13,9 @@
             ],
             "@favicon/*": [
                 "src/favicon/*"
+            ],
+            "@Table/*": [
+                "src/components/Table/*"
             ]
         }
     }

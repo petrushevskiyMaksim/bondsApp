@@ -43,3 +43,9 @@ body {
 .last-child:not(:last-child) {
 	margin-bottom: 10px;
 }
+
+.header-bonds-list {
+	@apply flex flex-col gap-3 px-2 py-3;
+}
+
+
